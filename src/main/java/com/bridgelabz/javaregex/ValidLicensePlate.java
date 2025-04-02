@@ -8,10 +8,10 @@ public class ValidLicensePlate {
         Scanner sc= new Scanner(System.in);
         String str=sc.nextLine();
         if(isValidate(str)){
-            System.out.println("Valid License Plate");
+            System.out.println("Valid License Plate.");
         }
         else {
-            System.out.println("Invalid License Plate");
+            System.out.println("Invalid License Plate.");
         }
     }
     public static boolean isValidate(String s){
